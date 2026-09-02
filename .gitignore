@@ -1,3 +1,7 @@
 build
 node_modules
 dist
+fullmoondocs
+AGENTS.md
+.vscode
+.zcode

@@ -1,11 +1,15 @@
 {
     "scripts": {
-        "build":"node build"
+        "build": "node build"
     },
     "dependencies": {
-        "js-yaml":"^4.1.0",
-        "yaml":"^2.7.0",
-        "ws":"^8.18.0",
-        "typescript":"^5.7.2"
+        "js-yaml": "^4.1.0",
+        "ws": "^8.18.0",
+        "yaml": "^2.7.0"
+    },
+    "devDependencies": {
+        "@types/js-yaml": "^4.0.9",
+        "@types/node": "^26.2.0",
+        "typescript": "^7.0.2"
     }
 }

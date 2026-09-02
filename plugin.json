@@ -1,16 +1,16 @@
 {
-    "name":"Full Moon Platform plugin example",
+    "name":"HyperContainer",
     "main":"index",
-    "description":"A plugin developed with Full Moon Platform.",
+    "description":"A Minecraft plugin that lets players create shared, cross-server item containers beyond inventory and ender chests, with flexible permission and limit controls.",
     "build_dir":"dist",
-    "data_path":"fmp_plugin_example",
+    "data_path":"HyperContainer",
     "src_dir":"src",
-    "plugin_dir_name":"fmp_plugin_example",
+    "plugin_dir_name":"HyperContainer",
     "supported_platforms":{
-        "mode":"bl",
-        "list":[]
+        "mode":"wl",
+        "list":["nodejs","llse"]
     },
-    "permissionRoot":"fmppluginexample",
+    "permissionRoot":"hypercontainer",
     "features":[],
     "priorities":{
         "default":[
