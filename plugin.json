@@ -11,7 +11,10 @@
         "list":["nodejs","llse"]
     },
     "permissionRoot":"hypercontainer",
-    "features":[],
+    "features":["sqlite3","yml"],
+    "files":[
+        "client/connector.ts"
+    ],
     "priorities":{
         "default":[
             "LNSDK"

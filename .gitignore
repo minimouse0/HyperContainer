@@ -1,7 +1,12 @@
 build
 node_modules
 dist
+/client
 fullmoondocs
 AGENTS.md
 .vscode
 .zcode
+deploy_client_on_231l.command
+.DS_Store
+deploy_on_231t.command
+deploy_client_on_231t.command

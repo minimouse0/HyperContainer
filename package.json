@@ -1,8 +1,11 @@
 {
     "scripts": {
-        "build": "node build"
+        "build": "node build",
+        "build:plugin": "node build-plugin.js",
+        "build:client": "node build-plugin.js --client-only"
     },
     "dependencies": {
+        "better-sqlite3": "^13.0.3",
         "js-yaml": "^4.1.0",
         "ws": "^8.18.0",
         "yaml": "^2.7.0"
